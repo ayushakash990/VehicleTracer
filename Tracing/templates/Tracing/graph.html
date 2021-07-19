@@ -1,0 +1,25 @@
+{% load static %}
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static '/css/graphStyles.css' %}" />
+    <!--FontAwsome-->
+    <script
+      src="https://kit.fontawesome.com/e51e1b526a.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>graph</title>
+  </head>
+  <body>
+    <svg
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns="http://www.w3.org/2000/svg"
+      class="graph"
+    ></svg>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="{% static '/js/graph.js' %}" charset="utf-8"></script>
+  </body>
+</html>
