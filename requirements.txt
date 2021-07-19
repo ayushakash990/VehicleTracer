@@ -1,0 +1,14 @@
+certifi==2020.12.5
+chardet==4.0.0
+decorator==4.4.2
+enum34==1.1.10
+futures==3.3.0
+idna==2.10
+imageio==2.4.1
+moviepy==1.0.3
+numpy==1.16.6
+Pillow==6.2.2
+proglog==0.1.9
+requests==2.25.1
+tqdm==4.59.0
+urllib3==1.26.4
